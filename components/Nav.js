@@ -113,7 +113,7 @@ const Navigation = () => {
           Buyurtmalar
         </Link>
 
-        <button onClick={() => signOut()} className={inActiveLink}>
+        {/* <button onClick={() => signOut()} className={inActiveLink}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -129,10 +129,9 @@ const Navigation = () => {
             />
           </svg>
           Chiqish
-        </button>
+        </button> */}
       </nav>
     </aside>
   );
 };
-
 export default Navigation;
