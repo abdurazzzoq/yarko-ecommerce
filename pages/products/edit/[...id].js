@@ -20,10 +20,8 @@ export default function editProduct() {
 
   return (
     <Layout>
-          <h1>Mahsulotni o'zgartirish</h1>
-          {product&&(
-            <ProductForm {...product}/>
-          )}
+      <h1>Mahsulotni Ozgartirish</h1>
+      {product && <ProductForm {...product} />}
     </Layout>
-  ) 
+  );
 }
