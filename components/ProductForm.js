@@ -113,7 +113,7 @@ const ProductForm = ({
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       ></textarea>
-      <label>Mahsulot narxi (SO'M)</label>
+      <label>Mahsulot narxi (SOM)</label>
       <input
         type="number" 
         placeholder="narx..."
