@@ -3,6 +3,8 @@ import { MongoDBAdapter } from "@auth/mongodb-adapter";
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 
+// const adminEmails = ['salemialekum34@gmail.com','abdurrozzzaq@gmail.com']
+
 export default NextAuth({
   providers: [
     GoogleProvider({
@@ -10,5 +12,5 @@ export default NextAuth({
       clientSecret: process.env.GOOGLE_SECRET,
     }),
   ],
-  adapter:MongoDBAdapter(clientPromise)
+  adapter: MongoDBAdapter(clientPromise),
 });
